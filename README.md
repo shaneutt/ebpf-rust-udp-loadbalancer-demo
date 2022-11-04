@@ -1,3 +1,8 @@
+> **Note**: this demo is featured as a [blog post][blog] at [Kong][kong].
+
+[blog]:https://konghq.com/blog/writing-an-ebpf-xdp-load-balancer-in-rust
+[kong]:https://konghq.com
+
 # eBPF Rust UDP LoadBalancer Demo
 
 This is an example of creating a [UDP][udp] load-balancer in [Rust][rust] as an
@@ -191,7 +196,7 @@ The template provided us with a very basic (but functional) XDP program which
 you can build and run. By default this will try to target `eth0`, but for the
 purposes of our demo we'll use the `lo` interface (loopback/localhost) as most
 systems conventionally have this interface by default (whereas the names of
-other interfaces can be vary).
+other interfaces may vary).
 
 Update the file `demo/src/main.rs` and change the default `iface` from `eth0`
 to `lo`:
