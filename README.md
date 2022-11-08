@@ -137,7 +137,7 @@ $ cargo install bpf-linker
 Finally, `bindgen` will need to be installed for `C` code bindings in Rust:
 
 ```console
-$ cargo install bindgen
+$ cargo install bindgen-cli
 ```
 
 ## Scaffolding our project
