@@ -498,7 +498,7 @@ $ RUST_LOG=info cargo xtask run
 > know that the port isn't available for the UDP traffic as we don't have any
 > server listening on that port yet, so the kernel simply refused it.
 
-Now we know how to decode information from the `XdpPacket`, next we'll try
+Now we know how to decode information from the `XdpContext`, next we'll try
 _modifying the packet_ to change the flow of traffic.
 
 [rust-safe]:https://developer.okta.com/blog/2022/03/18/programming-security-and-why-rust
