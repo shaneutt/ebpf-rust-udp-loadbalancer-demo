@@ -1,13 +1,14 @@
-> **Note**: this demo is featured as a [blog post][blog] at [Kong][kong].
-
-[blog]:https://konghq.com/blog/writing-an-ebpf-xdp-load-balancer-in-rust
-[kong]:https://konghq.com
-
 # eBPF Rust UDP LoadBalancer Demo
 
 This is an example of creating a [UDP][udp] load-balancer in [Rust][rust] as an
 [eXpress Data Path (XDP)][xdp] type [eBPF][ebpf] program using the [aya][aya]
 framework.
+
+This is the repository for the blog post [Writing an eBPF XDP Load Balancer in
+Rust][blog] at [Kong][kong].
+
+[blog]:https://konghq.com/blog/writing-an-ebpf-xdp-load-balancer-in-rust
+[kong]:https://konghq.com
 
 > **Note** This example assumes a fairly strong understanding of Linux,
 > networking, and Rust programming.
